@@ -2,7 +2,6 @@ connection: "snowflake_looker"
 
 # include all the views
 include: "*.view"
-# include: "weather_data.snowflake.explore"
 
 datagroup: snowflake_sandbox_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
